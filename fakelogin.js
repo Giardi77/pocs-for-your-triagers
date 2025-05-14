@@ -132,15 +132,14 @@
           var email = document.getElementById("poc-email").value;
           var pass = passwordField.value;
           alert(
-            "--- PoC: XSS UI Redressing ---\\n\\n" +
-              "CREDENTIALI INTERCETTATE (Dimostrazione):\\n" +
+            "--- PoC: XSS UI Redressing ---\n\n" +
               "Email: " +
               email +
-              "\\n" +
+              "\n" +
               "Password: " +
               pass +
-              "\\n\\n" +
-              "Questo dimostra come un aggressore potrebbe rubare le credenziali. Nessun dato è stato inviato.",
+              "\n\n" +
+              "just a poc. Nessun dato è stato inviato.",
           );
         });
       }
